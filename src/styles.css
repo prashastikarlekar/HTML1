@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+}
+#name {
+  margin: 10px;
+  text-align: center;
+}
+#fname {
+  padding: 10px;
+  margin-right: 10px;
+}
+#lname {
+  padding: 10px;
+  margin-left: 10px;
+}
+#contact {
+  margin: 10px;
+  text-align: center;
+}
+#phone {
+  width: 370px;
+  padding: 10px;
+}
+#email {
+  margin: 10px;
+  text-align: center;
+}
+#emailAddress {
+  width: 370px;
+  padding: 10px;
+}
+#auth {
+  margin: 10px;
+  text-align: center;
+}
+#password {
+  padding: 10px;
+  margin-right: 10px;
+}
+#confirmpassword {
+  padding: 10px;
+  margin-left: 10px;
+}
+.heading {
+  text-align: center;
+}
+.labelterms {
+  font-size: 16px;
+}
+#text {
+  /* padding: 2px 10px; */
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+#register1 {
+  height: 20px;
+  background-color: #1995d8;
+  color: white;
+  border-radius: 5px;
+  border-color: #1995d8;
+}
+#submit {
+  text-align: center;
+}
+#register {
+  padding: 10px;
+  width: 185px;
+  background-color: #1995d8;
+  border: solid 1px #1995d8;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+}
+#signin {
+  padding: 10px;
+  width: 185px;
+  color: white;
+  background-color: #259d31;
+  border: solid 1px #259d31;
+  border-radius: 5px;
+  margin-left: 10px;
+}

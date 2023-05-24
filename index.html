@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <form action="">
+      <h1 id="heading" class="heading">Sign Up</h1>
+      <div id="name">
+        <input type="text" id="fname" name="fname" placeholder="First Name" />
+        <input type="text" id="lname" name="lname" placeholder="Last Name" />
+      </div>
+      <div id="contact">
+        <input type="text" id="phone" name="phone" placeholder="Mobile No." />
+      </div>
+      <div id="email">
+        <input
+          type="text"
+          id="emailAddress"
+          name="emailAddress"
+          placeholder="Email Address"
+        />
+      </div>
+      <div id="auth">
+        <input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <input
+          type="text"
+          id="confirmpassword"
+          name="confirmpassword"
+          placeholder="Confirm Password"
+        />
+      </div>
+      <div id="text">
+        <input type="checkbox" id="terms" name="terms" required="" />
+        <label class="labelterms">I Agree</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <span>
+          By clicking
+          <button id="register1">Register</button>, you agree to
+          <a href="/">Terms and Conditions</a> set out by this site, including
+          our Cookie Use.
+        </span>
+      </div>
+      <div id="submit">
+        <button id="register">Register</button>
+        <button id="signin">Sign In</button>
+      </div>
+    </form>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
